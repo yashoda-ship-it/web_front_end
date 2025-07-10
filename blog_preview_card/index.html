@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>blog_preview_card</title>
-        <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap" rel="stylesheet">
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css"
-    </head>
-    <body>
-       <main class="card-wrapper">
-        <article class="card">
-            <img class="card-image" src="D:\web_front_end\blog_preview_card\WhatsApp Image 2025-07-10 at 11.37.01_13f3e565.jpg" alt="blog picture">
-            <P class="card-tag">learning</P>
-            <p class="card-date">Published 21 Dec 2023</p>
-            <h2 class="card-title">HTML & CSS foundations</h2>
-            <p class="description"> These languages are the backbone of every website, defining structure, content, and presentation .</p>
-            <div class="card-author">
-                <img src="D:\web_front_end\blog_preview_card\WhatsApp Image 2025-07-10 at 11.15.56_aa58995b.jpg" alt="greg hopper" class="imgg">
-                <span class="image1">Greg Hopper</span>
-            </div>
-         </article>
-      </main>
-    </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Preview Card</title>
+
+  <!-- Figtree font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap" rel="stylesheet" />
+
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- MAIN: Wraps the unique content of this page -->
+  <main class="card-wrapper">
+
+    <!-- ARTICLE: One blog preview card (self-contained) -->
+    <article class="card">
+      
+      <!-- Image at the top -->
+      <img src="D:\web_front_end\blog_preview_card\WhatsApp Image 2025-07-10 at 11.37.01_13f3e565.jpg" alt="Blog illustration" class="card-image" />
+
+      <!-- Category label -->
+      <span class="card-tag">Learning</span>
+
+      <!-- Publish date -->
+      <p class="card-date">Published 21 Dec 2023</p>
+
+      <!-- Title of the blog post -->
+      <h2 class="card-title">HTML & CSS foundations</h2>
+
+      <!-- Description -->
+      <p class="description">
+        These languages are the backbone of every website, defining structure, content, and presentation.
+      </p>
+
+      <!-- Author info: avatar + name -->
+      <div class="img">
+        <img src="D:\web_front_end\blog_preview_card\WhatsApp Image 2025-07-10 at 11.15.56_aa58995b.jpg" alt="Greg Hopper" class="author-avatar" />
+        <span class="image1">Greg Hopper</span>
+      </div>
+
+    </article>
+
+  </main>
+
+</body>
 </html>
